@@ -68,21 +68,21 @@ These can be obtained here (follow the instructions on the website links):
   ![Signup/Login](./assets/login-page.PNG)
   <br>
 - **Create/Upload Receipts:** User can upload the receipt image, then with help of google-cloud-vision-API it will extract the text from image and Machine learning model will extract the title and amount from the image. On next page we can manually add date, category.
-  ![Upload Receipt](./assets/upload-receipt2.png)
+  ![Upload Receipt](./assets/upload-receipt2.PNG)
   <br>
-  ![Upload Receipt](./assets/upload-receipt3.png)
+  ![Upload Receipt](./assets/upload-receipt3.PNG)
   <br>
-  ![Upload Receipt](./assets/upload-receipt4.png)
+  ![Upload Receipt](./assets/upload-receipt4.PNG)
 - **Dashboard feature:** In Dashboard user can see total expences by month in graphical way. Top most expences by category and recent transaction(receipts)
-  ![Dashboard](./assets/dashboard.png)
+  ![Dashboard](./assets/dashboard.PNG)
   <br>
 - **Report feature:** User can see there expences in report format. User can filter it by month and year. If user wants there monthly expence report in csv format, then with the help of email button requested monthly report will be sent to users registerd email address.
-  ![Reports](./assets/report-page.png)
+  ![Reports](./assets/report-page.PNG)
   <br>
 - **Receipt feature:** User can see, edit and delete the receipts.
-  ![Receipts](./assets/receipts-page.png)
+  ![Receipts](./assets/receipts-page.PNG)
   <br>
-  ![Receipts](./assets/delete-receipt.png)
+  ![Receipts](./assets/delete-receipt.PNG)
   <br>
 
   
