@@ -65,7 +65,7 @@ These can be obtained here (follow the instructions on the website links):
 ### Feature Description
 
 - **Signuo/Login:** User can Signup/login from this startup page.
-  ![Signup/Login](./assets/login-page.png)
+  ![Signup/Login](./assets/login-page.PNG)
   <br>
 - **Create/Upload Receipts:** User can upload the receipt image, then with help of google-cloud-vision-API it will extract the text from image and Machine learning model will extract the title and amount from the image. On next page we can manually add date, category.
   ![Upload Receipt](./assets/upload-receipt2.png)
