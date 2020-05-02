@@ -14,9 +14,11 @@ from api.topCategories_handler import topCategories_handler
 from api.email_handler import email_handler
 from api.linechart_handler import linechart_handler
 from api.deleteReceipt_handler import deleteReceipt_handler
+from flask_cors import CORS
 
 # Initialize flask app
 app = Flask(__name__)
+CORS(app)
 
 # bcrypt=Bcrypt(app)
 app.config.from_object(__name__)
