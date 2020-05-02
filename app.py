@@ -39,3 +39,5 @@ app.register_blueprint(email_handler)
 app.register_blueprint(linechart_handler)
 app.register_blueprint(deleteReceipt_handler)
 
+app.run()
+
