@@ -1,1 +1,1 @@
-web: pipenv run flask run --log-file -
+web: pipenv run flask run 
