@@ -50,4 +50,5 @@ six==1.14.0
 urllib3==1.25.9
 Werkzeug==1.0.1
 WTForms==2.2.1
+gunicorn== 19.9.0
 
