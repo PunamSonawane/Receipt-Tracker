@@ -35,6 +35,9 @@ def createReceiptVision():
         picture_url = 'https://%s.s3.ca-central-1.amazonaws.com/%s' % (BUCKET_NAME, p)
 
         # Google cloud vision API for text detection in image receipts
+        print("google credential--------")
+        print(os.getenv('GOOGLE_APPLICATION_CREDENTIALS'))
+        print(type(os.getenv('GOOGLE_APPLICATION_CREDENTIALS')))
         client = vision.ImageAnnotatorClient()
         image = vision.types.Image()
         image.source.image_uri = picture_url
