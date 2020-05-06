@@ -37,6 +37,10 @@ def createReceiptVision():
         # Google cloud vision API for text detection in image receipts
         print("google credential--------")
         credi=os.getenv('GOOGLE_APPLICATION_CREDENTIALS')
+        from google.oauth2 import service_account
+        # Instantiates a client
+        credentials = service_account.Credentials.from_service_account_file(credi)
+
         #person_dict = json.load(credi)
         with open(credi, "r") as read_file: 
             data = json.load(read_file)
