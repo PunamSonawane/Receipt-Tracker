@@ -41,6 +41,7 @@ def createReceiptVision():
         # Instantiates a client
         credentials = service_account.Credentials.from_service_account_file(credi)
 
+
         #person_dict = json.load(credi)
         with open(credi, "r") as read_file: 
             data = json.load(read_file)
@@ -48,7 +49,7 @@ def createReceiptVision():
         print(os.getenv('GOOGLE_APPLICATION_CREDENTIALS'))
 
         print(type(os.getenv('GOOGLE_APPLICATION_CREDENTIALS')))
-        client = vision.ImageAnnotatorClient()
+        client = vision.ImageAnnotatorClient(credentials=credentials)
         image = vision.types.Image()
         image.source.image_uri = picture_url
 
