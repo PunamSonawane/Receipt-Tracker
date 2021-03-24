@@ -42,7 +42,7 @@ python-dateutil==2.8.1
 python-http-client==3.2.7
 pytz==2019.3
 requests==2.23.0
-rsa==4.0
+rsa==4.1
 s3transfer==0.3.3
 sendgrid==6.2.2
 six==1.14.0
